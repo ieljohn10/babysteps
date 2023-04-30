@@ -1,0 +1,32 @@
+{
+  "toppings": [
+    {
+      "id": 1,
+      "toppingName": "Keju",
+      "ToppingImg": "src/assets/cover/burger_category@2x.png",
+      "price": 5000,
+      "quantitiy": 10
+    },
+    {
+      "id": 2,
+      "toppingName": "Beef",
+      "ToppingImg": "src/assets/cover/burger_category@2x.png",
+      "price": 5000,
+      "quantitiy": 10
+    },
+    {
+      "id": 31,
+      "toppingName": "Mayones",
+      "ToppingImg": "src/assets/cover/burger_category@2x.png",
+      "price": 5000,
+      "quantitiy": 10
+    },
+    {
+      "id": 4,
+      "toppingName": "Saus",
+      "ToppingImg": "src/assets/cover/burger_category@2x.png",
+      "price": 5000,
+      "quantitiy": 10
+    }
+  ]
+}

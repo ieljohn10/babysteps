@@ -1,0 +1,63 @@
+@import '../../var.scss';
+
+.searchbar{
+  margin-top: 17px;
+  display: flex;
+
+  .input-container{
+    margin-right: 10px;
+    padding: 0 15px;
+    width: 299px;
+    height: 26px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #9B8989;
+    border-radius: 30px;
+
+    input{
+      margin-right: 10px;
+      width: 100%;
+      outline: none;
+      border: none;
+      background-color: transparent;
+      font-family: 'Rajdhani';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 17px;
+      text-transform: lowercase;
+      color: $fontColorWhite;
+
+      &::placeholder {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 17px;
+        text-transform: lowercase;
+        color: $fontColorWhite;
+      }
+    }
+
+    img{
+      width: 13.24px;
+      height: 13.24px;
+    }
+  }
+
+  .notification-div{
+    position: relative;
+    
+    .red-notif{
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 8px;
+      width: 8px;
+      border-radius: 50%;
+      background-color: $iconBgRed;
+    }
+
+  }
+}

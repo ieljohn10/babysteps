@@ -1,0 +1,106 @@
+.title{
+  margin: 0 20px;
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.toppings{
+  margin-top: 5px;
+  overflow: scroll;
+  
+  .scrollContainer{
+    overflow: hidden;
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .content{
+    margin: 0 10px;
+    display: inline-flex;
+    
+
+    .toppingContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow: hidden;
+      text-align: center;
+
+      .topping-item{
+        margin: 0 5px;
+        position: relative;
+        width: 80px;
+        height: 80px;
+        background: #565656;
+        border-radius: 25px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+
+
+        .toppingImg{
+          width: 100px;
+          height: 80px;
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          transform: rotate(-7.24deg);
+        }
+
+        .addBtn{
+          position: absolute;
+          right: -3px;
+          bottom: -3px;
+          width: 24px;
+          height: 24px;
+          background-color: #A83939;
+          font-family: 'Rajdhani';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 22px;
+          color: #FFFFFF;
+          border-radius: 50px;
+          border: none;
+        }
+      }
+
+
+     
+      .priceDesc{
+        margin-top: 2px;
+        
+      }
+
+      .toppingName{
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 22px;
+        color: #FFFFFF;
+      }
+
+      .priceContainer{
+        display: flex;
+        align-items: center;
+
+        .currency, .toppingPrice{
+          font-family: 'Rajdhani';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 13px;
+          line-height: 17px;    
+          color: #F75760;
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+      }
+      
+    }
+  }
+  
+}

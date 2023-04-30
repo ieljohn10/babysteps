@@ -1,0 +1,17 @@
+{
+  "options": 
+  [
+    {
+      "id": 1,
+      "categoryName": "Burger"
+    },
+    {
+      "id": 2,
+      "categoryName": "Kebab"
+    },
+    {
+      "id": 3,
+      "categoryName": "MIE"
+    }
+  ]
+}

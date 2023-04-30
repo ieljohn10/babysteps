@@ -1,0 +1,24 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "idName": "burger1",
+      "title": "BURGER BIG",
+      "price": 25000,
+      "imagepath": "src/assets/cover/burger_card1@2x.png",
+      "alt": "burger big",
+      "productDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "rating": 5.0
+    },
+    {
+      "id": 2,
+      "idName": "burger2",
+      "title": "SHACK BURGER",
+      "price": 20000,
+      "imagepath": "src/assets/cover/burger_card2@2x.png",
+      "alt": "shack burger",
+      "productDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "rating": 5.0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+@import '../../var.scss';
+
+  .splash{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $backgroundColor;
+    
+    img{
+      width: 332.93px;
+      height: 252.99px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      transform: rotate(-7.24deg);
+
+      -webkit-animation: scale-down-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: scale-down-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+  }
+
+
+  @-webkit-keyframes scale-down-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-down-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
